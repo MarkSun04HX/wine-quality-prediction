@@ -238,19 +238,7 @@ train_and_predict_xgb_reg <- function(X_train, y_train, X_test) {
 # MODEL_REGISTRY — name, function, regressor flag
 # ---------------------------------------------------------------------------
 MODEL_REGISTRY <- list(
-  list(name = "OLS",                fn = train_and_predict_ols,            is_reg = TRUE),
-  list(name = "Multinomial Logistic", fn = train_and_predict_multinom,     is_reg = FALSE),
-  list(name = "Ridge Logistic",     fn = train_and_predict_ridge_logistic, is_reg = FALSE),
-  list(name = "Lasso Logistic",     fn = train_and_predict_lasso_logistic, is_reg = FALSE),
   list(name = "Elastic Net Logistic", fn = train_and_predict_enet_logistic, is_reg = FALSE),
-  list(name = "KNN",                fn = train_and_predict_knn,            is_reg = FALSE),
   list(name = "Random Forest (clf)", fn = train_and_predict_rf_class,      is_reg = FALSE),
-  list(name = "XGBoost (clf)",      fn = train_and_predict_xgb_class,      is_reg = FALSE),
-  list(name = "CatBoost (clf)",     fn = train_and_predict_catboost_class,  is_reg = FALSE),
-  list(name = "Naive Bayes",        fn = train_and_predict_naive_bayes,    is_reg = FALSE),
-  list(name = "Ordinal Logistic",   fn = train_and_predict_ordinal,        is_reg = FALSE),
-  list(name = "Ridge Regression",   fn = train_and_predict_ridge_reg,      is_reg = TRUE),
-  list(name = "Lasso Regression",   fn = train_and_predict_lasso_reg,      is_reg = TRUE),
-  list(name = "Random Forest (reg)", fn = train_and_predict_rf_reg,        is_reg = TRUE),
-  list(name = "XGBoost (reg)",      fn = train_and_predict_xgb_reg,        is_reg = TRUE)
+  list(name = "XGBoost (clf)",      fn = train_and_predict_xgb_class,      is_reg = FALSE)
 )
