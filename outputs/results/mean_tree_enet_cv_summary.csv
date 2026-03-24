@@ -1,0 +1,2 @@
+"model","k_folds","mean_cv_accuracy","sd_cv_accuracy"
+"mean(rpart, elastic_net) then round",5,0.537514489308729,0.00971274573630329

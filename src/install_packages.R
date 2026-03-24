@@ -8,7 +8,7 @@ options(repos = c(CRAN = "https://cloud.r-project.org"))
 cran_packages <- c(
   "ggplot2", "reshape2",
   "nnet", "glmnet", "class", "randomForest", "xgboost",
-  "e1071", "MASS", "caret", "remotes"
+  "e1071", "MASS", "caret", "remotes", "rpart"
 )
 
 for (pkg in cran_packages) {

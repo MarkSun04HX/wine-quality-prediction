@@ -1,0 +1,2 @@
+"model","k_folds","mean_cv_accuracy","sd_cv_accuracy","base_top3"
+"Top-3 RMSE ensemble (vote / mean-2-best)",10,0.526956517896367,0.0245924870178099,"KNN regression; Linear regression (OLS); Elastic Net (reg)"

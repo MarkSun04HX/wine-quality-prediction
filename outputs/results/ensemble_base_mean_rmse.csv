@@ -1,0 +1,6 @@
+"model","mean_cv_rmse"
+"Elastic Net (reg)",0.736844074960374
+"Linear regression (OLS)",0.736746550110501
+"Multinomial logistic",0.810300490217554
+"Regression tree (rpart)",0.767102577753374
+"KNN regression",0.705747719118119
