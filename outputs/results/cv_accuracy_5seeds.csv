@@ -1,0 +1,15 @@
+"seed","model","mean_cv_accuracy"
+42,"Elastic Net Logistic",0.531941445637703
+42,"Random Forest (clf)",0.665830367985088
+42,"XGBoost (clf)",0.642947027582757
+2024,"Elastic Net Logistic",0.538862641543464
+2024,"Random Forest (clf)",0.666422645297166
+2024,"XGBoost (clf)",0.637561491757183
+7,"Elastic Net Logistic",0.534817150170897
+7,"Random Forest (clf)",0.663333514866558
+7,"XGBoost (clf)",0.640055947970764
+123,"Random Forest (clf)",0.664861848890157
+123,"XGBoost (clf)",0.641586286249223
+999,"Elastic Net Logistic",0.534049594130526
+999,"Random Forest (clf)",0.664669177809089
+999,"XGBoost (clf)",0.634274366496282

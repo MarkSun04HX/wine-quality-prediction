@@ -1,0 +1,4 @@
+"model","mean_cv_accuracy_across_seeds"
+"Elastic Net Logistic",0.534917707870648
+"Random Forest (clf)",0.665023510969612
+"XGBoost (clf)",0.639285024011242
