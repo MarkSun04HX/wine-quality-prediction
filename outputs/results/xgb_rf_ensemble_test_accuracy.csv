@@ -1,0 +1,4 @@
+"model","accuracy_ceiling_clipped"
+"Random Forest (500 trees)",0.700538876058507
+"XGBoost (200 rounds)",0.672055427251732
+"Mean(RF, XGB) + ceiling",0.676674364896074

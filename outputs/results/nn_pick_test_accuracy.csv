@@ -1,0 +1,4 @@
+"method","accuracy_ceiling_clipped"
+"elastic_net",0.425712086220169
+"knn_reg",0.435719784449577
+"nn_pick_ensemble",0.433410315627406
