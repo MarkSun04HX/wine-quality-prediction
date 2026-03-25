@@ -1,0 +1,2 @@
+"method","k_folds","enet_alpha","features","mean_cv_accuracy","sd_cv_accuracy"
+"separate_elastic_net_by_is_red_poly2",10,0.5,"linear + squares + pairwise_interactions (continuous only)",0.546380070604448,0.0244001154397882

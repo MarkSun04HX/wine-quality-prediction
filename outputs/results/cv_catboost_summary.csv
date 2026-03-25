@@ -1,0 +1,2 @@
+"model","k_folds","mean_cv_accuracy","sd_cv_accuracy","mean_cv_rmse","sd_cv_rmse"
+"CatBoost (MultiClass)",5,0.593307129991385,0.00910592701057828,0.739930431567945,0.00491328624548208
